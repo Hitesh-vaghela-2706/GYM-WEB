@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CONTACT PAGE</title>
+    <link rel="stylesheet" href="NAVBAR.CSS">
+    <link rel="stylesheet" href="CONTACT.CSS">
+    <link rel="stylesheet" href="COUROSEL.css"> 
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="div">   
+                <ul class="ul">
+                    <li class="li"><a class="a" href="INDEX.HTML">Home</a></li>
+                    <li class="li"><a class="a" href="ABOUT.HTML">About</a></li>
+                    <li class="li"><a class="a" href="CONTACT.HTML">Contact</a></li>
+                </ul>
+            </div> 
+        </nav>
+    </header>
+    <div>
+        <marquee style="font-size: 2.3em;background-color: rgb(26, 163, 226);margin: 50px -20px 10px;"> Contact Us </marquee>
+    </div>
+      <div class="w-50 m-auto">
+        <form onsubmit="alert('successfully submited')">
+
+            <lable>UserName :</lable>
+            <input type="text" name="user" class="form-control" placeholder="Enter your name" required><br>
+
+            <lable>Email Id :</lable>
+            <input type="text" name="email" class="form-control" placeholder="Enter your email" required><br>
+
+            <lable>Mobile Number :</lable>
+            <input type="text" name="mobile" class="form-control" placeholder="Enter your phone"><br>
+
+            <lable>Comments :</lable>
+            <textarea class="form-control" name="comments"> </textarea><br>
+
+            <button type="submit" class="button"> Submit </botton>
+                
+        </form>
+      </div>
+</body>
+
+</html>
